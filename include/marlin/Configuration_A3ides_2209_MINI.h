@@ -425,9 +425,9 @@
 // is more than PID_FUNCTIONAL_RANGE then the PID will be shut off and the heater will be set to min/max.
 
     // Prusa MINI
-    #define DEFAULT_Kp 11.36
-    #define DEFAULT_Ki 0.54
-    #define DEFAULT_Kd 59.28
+    #define DEFAULT_Kp 13.78    
+    #define DEFAULT_Ki 0.77
+    #define DEFAULT_Kd 61.48
     #define STEADY_STATE_HOTEND_LINEAR_COOLING_TERM 0.322
     #define STEADY_STATE_HOTEND_QUADRATIC_COOLING_TERM 0.0002
     #define STEADY_STATE_HOTEND_FAN_COOLING_TERM 3.9
